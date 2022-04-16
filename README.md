@@ -10,7 +10,7 @@ This is my Angular "Hello World". I created this repository just to learn the An
 - [x] validate input field
 
 ## Preview
-Of course, the website page won't run well unless you can call my local API. So, here I will give some screenshots to a glimpse of what this website page looks like.
+Of course, the website page won't run well unless you can call my local API. So, here I will give some screenshots to give a glimpse of what this website page looks like.
 ### Home
 ![add](preview/home.png)
 
