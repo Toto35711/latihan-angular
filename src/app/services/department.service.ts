@@ -1,8 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 import { Observable } from 'rxjs';
-import {IDepartment, IDepartmentList} from '../interface/department';
-import { Post } from '../interface/post';
 import { environment } from 'src/environments/environment';
 
 const API_URL=environment.apiURL+'department/';

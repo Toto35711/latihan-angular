@@ -82,8 +82,8 @@ export class DepartmentFormComponent implements OnInit {
           Swal.fire({
             icon: 'success',
             title: 'the new record has been saved',
-            showConfirmButton: false,
-            timer: 1500,
+            showConfirmButton: true,
+            confirmButtonText: 'OK',
           }).then((result: any) => {
             this.onReset();
             this.router.navigate(['/departments']);
@@ -104,8 +104,8 @@ export class DepartmentFormComponent implements OnInit {
           Swal.fire({
             icon: 'success',
             title: 'the record has been updated',
-            showConfirmButton: false,
-            timer: 1500,
+            showConfirmButton: true,
+            confirmButtonText: 'OK',
           }).then((result: any) => {
             this.onReset();
             this.router.navigate(['/departments']);
