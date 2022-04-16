@@ -14,6 +14,9 @@ Of course, the website page won't run well unless you can call my local API. So,
 ### Home
 ![add](preview/home.png)
 
+### Department
+![add](preview/department.png)
+
 ### Adding New Department
 ![add](preview/add.png)
 ![add_success](preview/add_success.png)
