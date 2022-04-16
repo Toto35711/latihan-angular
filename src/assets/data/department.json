@@ -1,0 +1,199 @@
+{
+    "status": true,
+    "message": null,
+    "timeStamp": 1649733195866,
+    "data": [
+      {
+        "departmentID": 1,
+        "departmentName": "Support",
+        "managerID": 110,
+        "locationID": 1000
+      },
+      {
+        "departmentID": 141,
+        "departmentName": "Support",
+        "managerID": null,
+        "locationID": 2500
+      },
+      {
+        "departmentID": 10,
+        "departmentName": "Administration",
+        "managerID": 200,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 20,
+        "departmentName": "Marketing",
+        "managerID": 201,
+        "locationID": 1800
+      },
+      {
+        "departmentID": 30,
+        "departmentName": "Purchasing",
+        "managerID": 114,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 40,
+        "departmentName": "Human Resources",
+        "managerID": 203,
+        "locationID": 2400
+      },
+      {
+        "departmentID": 50,
+        "departmentName": "Shipping",
+        "managerID": 121,
+        "locationID": 1500
+      },
+      {
+        "departmentID": 60,
+        "departmentName": "IT",
+        "managerID": 103,
+        "locationID": 1400
+      },
+      {
+        "departmentID": 70,
+        "departmentName": "Public Relations",
+        "managerID": 204,
+        "locationID": 2700
+      },
+      {
+        "departmentID": 80,
+        "departmentName": "Sales",
+        "managerID": 145,
+        "locationID": 2500
+      },
+      {
+        "departmentID": 90,
+        "departmentName": "Executive",
+        "managerID": 100,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 110,
+        "departmentName": "Accounting",
+        "managerID": 205,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 120,
+        "departmentName": "Treasury",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 130,
+        "departmentName": "Corporate Tax",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 140,
+        "departmentName": "Control And Credit",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 150,
+        "departmentName": "Shareholder Services",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 160,
+        "departmentName": "Benefits",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 170,
+        "departmentName": "Manufacturing",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 180,
+        "departmentName": "Construction",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 190,
+        "departmentName": "Contracting",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 200,
+        "departmentName": "Operations",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 210,
+        "departmentName": "IT Support",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 220,
+        "departmentName": "NOC",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 230,
+        "departmentName": "IT Helpdesk",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 240,
+        "departmentName": "Government Sales",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 250,
+        "departmentName": "Retail Sales",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 260,
+        "departmentName": "Recruiting",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 270,
+        "departmentName": "Payroll",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 99,
+        "departmentName": "Research",
+        "managerID": null,
+        "locationID": 1700
+      },
+      {
+        "departmentID": 1114,
+        "departmentName": "Music",
+        "managerID": 205,
+        "locationID": 1200
+      },
+      {
+        "departmentID": 1085,
+        "departmentName": "Mining",
+        "managerID": 118,
+        "locationID": 2600
+      },
+      {
+        "departmentID": 1099,
+        "departmentName": "Nuclear Engineering",
+        "managerID": 108,
+        "locationID": 2700
+      }
+    ]
+  }

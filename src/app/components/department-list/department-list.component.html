@@ -1,0 +1,27 @@
+<div class="p-grid ui-fluid">
+  <div class="p-col-12 p-md-4">
+      <div class="ui-inputgroup">
+        <button type="submit" (click)="searchDepartmentByName()">cari</button>
+        <input type="search" name="" id="" (input)="InputChanged()" [(ngModel)]="searchKey">
+        <button routerLink='../department-form' routerLinkActive='activebutton' type="button" class="button" style="margin-left: 20px;"><span>Add Department</span></button>
+      </div>
+  </div>
+</div>
+
+
+<h2>Department List</h2>
+
+<table border="2px">
+  <tr>
+    <th>ID</th>
+    <th>Department Name</th>
+    <th>Action</th>
+  </tr>
+  <tr *ngFor="let department of departments">
+    <td>{{department.departmentID}}
+    </td>
+    <td><a routerLink="/department-form/{{department.departmentID}}">{{department.departmentName}}</a></td>
+    <td><button (click)="deleteConfirmation(department.departmentID)">Delete</button>
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,48 @@
+<h2>Department Form</h2>
+<hr>
+<form [formGroup]="form" (ngSubmit)="submit()" novalidate>
+  <div class="form-group">
+    <label for="departmentName">Department Name</label>
+    <input formControlName='departmentName' type="text" class="form-control" id="departmentName">
+
+    <div *ngIf="f['departmentName'].touched && f['departmentName'].invalid" class="alert alert-danger">
+      <div *ngIf="f['departmentName'].errors && f['departmentName'].errors['required']">This is required</div>
+      <div *ngIf="f['departmentName'].errors && f['departmentName'].errors['minlength']">Name should be at least 3
+        characters</div>
+      <div *ngIf="f['departmentName'].errors && f['departmentName'].errors['maxlength']">Name should be no more than 30
+        characters</div>
+    </div>
+  </div>
+
+  <div class="'form-group">
+    <label for="locationID">Location</label>
+    <select class="form-select" id="locationID" formControlName="locationID">
+      <option value="">Choose city</option>
+      <option *ngFor="let item of locations" [ngValue]="item.locationId">
+        {{item.locationId}} {{item.city}}
+      </option>
+    </select>
+  </div>
+  <div *ngIf="f['locationID'].touched && f['locationID'].invalid" class="alert alert-danger">
+    <div *ngIf="f['locationID'].errors && f['locationID'].errors['required']">Location is required</div>
+  </div>
+
+  <div class="'form-group">
+    <label for="managerID">Manager</label>
+    <select class="form-select" id="managerID" formControlName="managerID">
+      <option value="">Choose manager</option>
+      <option *ngFor="let item of managers" [ngValue]="item.employeeID">
+        {{item.employeeId}} {{item.firstName}} {{item.lastName}}
+      </option>
+    </select>
+  </div>
+  <div *ngIf="f['managerID'].touched && f['managerID'].invalid" class="alert alert-danger">
+    <div *ngIf="f['managerID'].errors && f['managerID'].errors['required']">Manager is required</div>
+  </div>
+
+  <div style="margin-top: 20px;">
+    <button class="btn btn-success" [disabled]="form.invalid" type="submit">Simpan</button>&nbsp;
+    <button class="btn btn-danger" type="button" routerLink="/departments">Batal</button>
+  </div>
+
+</form>
